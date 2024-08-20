@@ -1,0 +1,11 @@
+{
+  "name": "@ziwi/styles",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.css"
+    }
+  }
+}

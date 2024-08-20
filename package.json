@@ -2,18 +2,25 @@
   "name": "turborepo-template",
   "private": true,
   "scripts": {
+    "bootstrap": "pnpm install",
     "build": "turbo build",
     "dev": "turbo dev",
+    "dev:ele": "pnpm -F @ziwi/web-ele run dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.3.0",
+    "@changesets/cli": "^2.19.0",
     "prettier": "^3.2.5",
     "turbo": "^2.0.14",
     "typescript": "^5.4.5"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
-    "node": ">=18"
+    "node": ">=18",
+    "pnpm": ">=8"
   }
 }

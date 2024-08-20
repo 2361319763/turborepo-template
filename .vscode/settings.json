@@ -3,5 +3,31 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/elehukouben": true,
+    "**/.git": true,
+    "**/.github": true,
+    "**/.gitignore": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/.vitepress/cache": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/.yarn": true,
+    "**/tmp": true,
+    "*.xml": true,
+    "out": true,
+    "dist": true,
+    "node_modules": true,
+    "CHANGELOG.md": true,
+    "**/pnpm-lock.yaml": true,
+    "**/yarn.lock": true
+  },
+  "npm.packageManager": "pnpm",
 }

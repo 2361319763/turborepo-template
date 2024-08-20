@@ -3,16 +3,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "pnpm vite --mode development",
+    "build": "pnpm vite build --mode production",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.37"
+    "element-plus": "^2.8.0",
+    "pinia": "2.2.2",
+    "vue": "^3.4.38"
   },
   "devDependencies": {
     "@ziwi/styles": "workspace:*",
-    "@vitejs/plugin-vue": "^5.1.2",
-    "vite": "^5.4.1"
+    "unplugin-element-plus": "^0.8.0"
   }
 }

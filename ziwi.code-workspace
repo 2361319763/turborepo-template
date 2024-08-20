@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "@ziwi/web-ele",
+      "path": "apps/web-ele",
+    },
+    {
+      "name": "@ziwi/node-utils",
+      "path": "internal/node-utils",
+    },
+    {
+      "name": "@ziwi/tailwind-config",
+      "path": "internal/tailwind-config",
+    },
+    {
+      "name": "@ziwi/tsconfig",
+      "path": "internal/tsconfig",
+    },
+    {
+      "name": "@ziwi/vite-config",
+      "path": "internal/vite-config",
+    },
+    {
+      "name": "@ziwi/styles",
+      "path": "packages/styles",
+    },
+    {
+      "name": "@ziwi/turbo-run",
+      "path": "scripts/turbo-run",
+    },
+    {
+      "name": "@ziwi/vsh",
+      "path": "scripts/vsh",
+    },
+  ],
+}
